@@ -1,21 +1,23 @@
-# CubeMX generated — do not track
-*.ioc
-
 # Build output
-Debug/
-Release/
+build/
+*.o
 *.elf
 *.hex
 *.bin
 *.map
-*.list
+*.lst
 
-# IDE metadata
+# IDE 
+.metadata/
 .settings/
 .cproject
 .project
 *.launch
+Debug/
+Release/
 
+# Dependency files
+*.d
 
 # commit your source code, ignore your build output.
 # avoids those all multiple O/P files that are produced over every build/run
